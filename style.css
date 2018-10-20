@@ -67,7 +67,7 @@ ul li a {
     text-decoration: none;
     color: #ccc;
     line-height: 40px;
-    display:block;
+    display:inline-block;
     position:viewport;
    
 }  
@@ -127,13 +127,12 @@ textarea{
     text-decoration: none;
     background: #4aaaa5;
     box-shadow: 2px 5px 10px teal;
-    width: 80px;
+    margin-top:-15px;
     color: white;
     display:block;
-    padding:10px 10px;
     text-align:center;
     font-size:15px;
-    position:viewport;
+    position: viewport; 
 }
 .wrapper .comment{
     display:block;
@@ -141,7 +140,7 @@ textarea{
     height: 50px;
     background-color: #4aaaa5;
     color: white;
-    z-index: inherit 0  ;
+    z-index: inherit 0 ;
     text-align: center;
     padding-top: 18px;
     margin-top:140px;
